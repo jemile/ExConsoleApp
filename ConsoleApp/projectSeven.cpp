@@ -14,7 +14,7 @@ int started = false;
 double finalAmount = 0.00;
 
 // this function will return the final value depending on which arithmetic operator they want to use
-double math(int numOne, int numTwo, int type) {
+double math(double numOne, double numTwo, int type) {
 	do {
 		started = true;
 		switch (type) {
@@ -35,6 +35,7 @@ double math(int numOne, int numTwo, int type) {
 				break;
 		}
 	} while (!started);
+	return 0;
 }
 
 int projectSeven() 
@@ -62,13 +63,13 @@ int projectSeven()
 	} while (!started);
 
 	started = false;
-	finalAmount = math(numberOne, numberTwo, mathType);
+	finalAmount = math((double)numberOne, (double)numberTwo, mathType);
 
 	cout << "The final float/double is: " << finalAmount << "\n";
 	cout << "The final integer is: " << (int)finalAmount << "\n";
 
 	cin.get();
-
+	cin.get();
 
 
 	return projectNine();

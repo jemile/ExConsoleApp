@@ -17,9 +17,12 @@ int loopIteration = 0;
 // https://stackoverflow.com/questions/650162/why-cant-the-switch-statement-be-applied-to-strings
 // function used to allow strings in a switch statement
 
+// this code gives a warning
 string_code hashit(std::string const& inString) {
 	if (inString == "yes") return yes;
 	if (inString == "no") return no;
+	// doing this to fix it cuz lazy
+	else return no;
 }
 
 

@@ -27,7 +27,6 @@ using number2_t = double;
 int main() 
 {
     // used temorarily to get to the current project
-    return projectTen();
 
 
     text_t firstName = "Wein";
@@ -43,7 +42,7 @@ int main()
     cout << number2_t << "\n";
 
     cin.get();
-    projectTwo();
+    return projectTwo();
     //return 0;
 }
 

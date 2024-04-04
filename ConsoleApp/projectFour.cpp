@@ -72,6 +72,8 @@ int projectFour()
 	cout << "<cmath> floor value (floor) example \n";
 	cout << "<cmath> floor(3.9): " << z << "\n";
 
+	cin.get();
+
 	// calls the next function
 	return projectFive();
 }

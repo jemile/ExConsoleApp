@@ -26,9 +26,6 @@ static inline void getAnswer(bool conversionMethod)
 			cout << "converting fahrenheit to celcius \n";
 			fahrenheitConversion = false;;
 			break;
-		default:
-			cout << "dumby head \n";
-			break;
 	}
 }
 
@@ -42,9 +39,6 @@ static inline void temperatureMath(double temperature)
 			break;
 		case false:
 			newTemp = (temperature - 32) / 1.8;
-			break;
-		default:
-			cout << "dumby head \n";
 			break;
 	}
 
