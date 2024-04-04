@@ -129,7 +129,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="projectEight.cpp" />
     <ClCompile Include="projectFive.cpp" />
+    <ClCompile Include="projectNine.cpp" />
+    <ClCompile Include="projectSeven.cpp" />
+    <ClCompile Include="projectSix.cpp" />
+    <ClCompile Include="projectTen.cpp" />
     <ClCompile Include="projectTwo.cpp" />
     <ClCompile Include="projectThree.cpp" />
     <ClCompile Include="projectFour.cpp" />

@@ -26,6 +26,10 @@ using number2_t = double;
 /* typedef and type aliases */
 int main() 
 {
+    // used temorarily to get to the current project
+    return projectTen();
+
+
     text_t firstName = "Wein";
     number_t age = 50;
 

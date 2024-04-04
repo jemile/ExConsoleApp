@@ -1,4 +1,5 @@
 #include "includes.h"
+#include "functions.h"
 
 /* THIS IS THE FIRST PRACTICE ASSIGNMENT */
 // HYPOTENUSE CALCULATOR
@@ -34,14 +35,14 @@ int projectFive()
 	adjacent = pow((int)adjacent, 2);
 	hypotenuse = sqrt(opposite + adjacent);
 
-
-
-
 	cout << "the (double) hypotenuse is: " << hypotenuse << "\n";
 	cout << "the (integer) hypotenuse is: " << (int)hypotenuse << "\n";
 
 	cin.get();
 	cin.get();
+
+	return projectSix();
+
 
 	return 0;
 }
